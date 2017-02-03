@@ -1,6 +1,6 @@
 <?php
- <?php
-define('BOT_TOKEN', '**TOKEN**');
+define('BOT_TOKEN', '329410609:AAGIoc7iK-kk7xwIyr7ZCCiw7oYv1PLYbIk
+');
 
   $http_code = intval(curl_getinfo($handle, CURLINFO_HTTP_CODE));
 +?>
@@ -84,7 +84,7 @@ function apiRequest($method, $parameters) {
 -  // process incoming message
 -  $boolean = file_get_contents('booleans.txt');
 -  $booleans= explode("\n",$boolean);
--  $admin = **ADMIN**;
+-  $admin = 215861706;
 -  $message_id = $message['message_id'];
 -  $rpto = $message['reply_to_message']['forward_from']['id'];
 -  $chat_id = $message['chat']['id'];
